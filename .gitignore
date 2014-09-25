@@ -4,4 +4,5 @@
 /media/*
 /var/*
 /var/
-.idea
+.idea/
+.idea/*
