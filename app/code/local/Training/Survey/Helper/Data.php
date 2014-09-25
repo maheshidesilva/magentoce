@@ -34,4 +34,17 @@ class Training_Survey_Helper_Data extends Mage_Core_Helper_Abstract {
             return $sessionCustomer->getId();
         }
     }
+
+
+    public function getSurveyNumberAdminDashboard() {
+        if (Mage::getStoreConfig('survey_options/survey_grid/number_of_survey_admin_dashboard')) {
+            return Mage::getStoreConfig('survey_options/survey_grid/number_of_survey_admin_dashboard');
+        }
+    }
+
+    public function getSurveyNumberMyAccount() {
+        if (Mage::getStoreConfig('survey_options/survey_grid/number_of_survey_myaccount')) {
+            return Mage::getStoreConfig('survey_options/survey_grid/number_of_survey_myaccount');
+        }
+    }
 }

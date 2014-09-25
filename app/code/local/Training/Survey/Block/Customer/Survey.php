@@ -29,13 +29,19 @@ class Training_Survey_Block_Customer_Survey extends Mage_Core_Block_Template
     public function getSurveyOfCustomer() {
 
         $helper = $this->_getHelper();
+
+        if($helper->getSurveyNumberMyAccount()) {
+            $limit = $helper->getSurveyNumberMyAccount();
+        }else {
+            $limit = 3;
+        }
         if ($helper->isUserLoggedIn()) {
             $customerId = $helper->returnUserId();
             $surveyColl = Mage::getSingleton('training_survey/survey')
                         ->getCollection()
                         ->addFieldToFilter('customer_id',$customerId)
                         ->setOrder('created_at','DESC');
-            $surveyColl->getSelect()->limit(3);
+            $surveyColl->getSelect()->limit($limit);
 
             return $surveyColl->getData();
         } else {

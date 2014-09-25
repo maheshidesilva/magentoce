@@ -8,7 +8,7 @@
     </tabs>
     <sections>
         <survey_options translate="label" module="training_survey">
-            <label>Survey Grid</label>
+            <label>Survey Config</label>
             <tab>surveyconfig</tab>
             <frontend_type>text</frontend_type>
             <sort_order>1000</sort_order>
@@ -24,14 +24,22 @@
                     <show_in_website>1</show_in_website>
                     <show_in_store>1</show_in_store>
                     <fields>
-                        <number_of_survey>
-                            <label>Number of Surveys in Admin Grid</label>
+                        <number_of_survey_admin_dashboard>
+                            <label>Admin Dashboard</label>
                             <frontend_type>text</frontend_type>
                             <sort_order>1</sort_order>
                             <show_in_default>1</show_in_default>
                             <show_in_website>1</show_in_website>
                             <show_in_store>1</show_in_store>
-                        </number_of_survey>
+                        </number_of_survey_admin_dashboard>
+                        <number_of_survey_myaccount>
+                            <label>Customer Survey My Account</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>1</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </number_of_survey_myaccount>
                     </fields>
                 </survey_grid>
             </groups>

@@ -46,7 +46,8 @@ class Training_Survey_Block_Adminhtml_Dashboard_Survey_Last extends Mage_Adminht
      */
     protected function _preparePage()
     {
-        if ($number = Mage::getStoreConfig('survey_options/survey_grid/number_of_survey')) {
+
+        if ($number = Mage::helper('training_survey')->getSurveyNumberAdminDashboard()) {
             $this->getCollection()->setPageSize($this->getParam($this->getVarNameLimit(), $number));
 
         } else {
@@ -83,4 +84,6 @@ class Training_Survey_Block_Adminhtml_Dashboard_Survey_Last extends Mage_Adminht
 
         return parent::_prepareColumns();
     }
+
+
 }
