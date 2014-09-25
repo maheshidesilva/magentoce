@@ -29,6 +29,7 @@
                 <class>Training_Survey_Block</class>
             </training_survey>
             <adminhtml>
+                <!-- #2-Admin-Dash - 1. This is the core adminhtml block for the Admin Dashboard. Here, it was rewritten to so that new blocks could be added -->
                 <rewrite>
                     <dashboard>Training_Survey_Block_Adminhtml_Dashboard</dashboard>
                 </rewrite>
