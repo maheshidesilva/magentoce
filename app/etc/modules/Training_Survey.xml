@@ -1,0 +1,11 @@
+<config>
+    <modules>
+        <Training_Survey>
+            <active>true</active>
+            <codePool>local</codePool>
+            <depends>
+                <Mage_Adminhtml />
+            </depends>
+        </Training_Survey>
+    </modules>
+</config>

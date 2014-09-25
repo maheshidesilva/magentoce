@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <tabs>
+        <surveyconfig translate="label" module="training_survey">
+            <label>Manage Surveys</label>
+            <sort_order>100</sort_order>
+        </surveyconfig>
+    </tabs>
+    <sections>
+        <survey_options translate="label" module="training_survey">
+            <label>Survey Grid</label>
+            <tab>surveyconfig</tab>
+            <frontend_type>text</frontend_type>
+            <sort_order>1000</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+                <survey_grid translate="label">
+                    <label>Number of Surveys</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>1</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <number_of_survey>
+                            <label>Number of Surveys in Admin Grid</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>1</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </number_of_survey>
+                    </fields>
+                </survey_grid>
+            </groups>
+        </survey_options>
+    </sections>
+</config>

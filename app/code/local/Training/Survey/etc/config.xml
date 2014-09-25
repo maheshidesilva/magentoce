@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Training_Survey>
+            <version>0.2.0</version>
+        </Training_Survey>
+    </modules>
+    <frontend>
+        <routers>
+            <survey>
+                <use>standard</use>
+                <args>
+                    <module>Training_Survey</module>
+                    <frontName>survey</frontName>
+                </args>
+            </survey>
+        </routers>
+        <layout>
+            <updates>
+                <survey>
+                    <file>survey.xml</file>
+                </survey>
+            </updates>
+        </layout>
+    </frontend>
+    <global>
+        <blocks>
+            <training_survey>
+                <class>Training_Survey_Block</class>
+            </training_survey>
+            <adminhtml>
+                <rewrite>
+                    <dashboard>Training_Survey_Block_Adminhtml_Dashboard</dashboard>
+                </rewrite>
+            </adminhtml>
+        </blocks>
+        <helpers>
+            <training_survey>
+                <class>Training_Survey_Helper</class>
+            </training_survey>
+        </helpers>
+        <models>
+            <training_survey>
+                <class>Training_Survey_Model</class>
+                <resourceModel>survey_resource</resourceModel>
+            </training_survey>
+            <survey_resource>
+            	<class>Training_Survey_Model_Resource</class>
+            	<entities>
+	                <surveyresults>
+	                    <table>survey_results</table>
+	                </surveyresults>
+            </entities>
+            </survey_resource>
+        </models>
+        <resources>
+	        <survey_setup>
+	            <setup>
+	                <module>Training_Survey</module><!-- if following line is there, then there has to be Model_Resource_Setup.php file, otherwise there will be errors -->
+	                <class>Training_Survey_Model_Resource_Setup</class>
+	            </setup>
+	        </survey_setup>
+    </resources>
+    </global>
+    <!-- Admin Step #1: this section makes the url of admin section to begin with admin/controller/action -->
+    <!-- Admin Step #2: Go to adminhtml.xml -->
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <training_survey before="Mage_Adminhtml">Training_Survey_Adminhtml</training_survey>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+</config>

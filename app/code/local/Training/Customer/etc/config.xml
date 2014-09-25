@@ -1,0 +1,25 @@
+<config>
+    <modules>
+        <Training_Customer>
+            <version>0.0.2</version>
+        </Training_Customer>
+    </modules>
+    <global>
+        <fieldset>
+            <customer_account>
+                <website>
+                    <create>1</create>
+                    <update>1</update>
+                </website>
+            </customer_account>
+        </fieldset>
+        <resources>
+            <training_customer_setup>
+                <setup>
+                    <module>Training_Customer</module>
+                    <class>Mage_Eav_Model_Entity_Setup</class>
+                </setup>
+            </training_customer_setup>
+        </resources>
+    </global>
+</config>

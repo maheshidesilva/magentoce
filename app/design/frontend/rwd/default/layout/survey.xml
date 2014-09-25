@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <survey_index_index>
+        <reference name="root">
+            <action method="setTemplate"><template>page/1column.phtml</template></action>
+        </reference>
+        <reference name="content">
+            <block type="training_survey/survey_form" name="survey.form" as="survey.form" template="survey/form.phtml"/>
+        </reference>
+    </survey_index_index>
+    <cms_index_index>
+        <reference name="left">
+                <block type="training_survey/survey_form" name="survey.form" as="survey.form" template="survey/form.phtml"/>
+        </reference>
+    </cms_index_index>
+    <!-- C1. This is to add a new tab to customer dashboard left hand navigation -->
+    <customer_account>
+        <reference name="customer_account_navigation">
+            <action method="addLink" translate="label" module="training_survey"><name>customersurvey</name><path>survey/customer/index</path><label>Customer Survey</label></action>
+        </reference>
+    </customer_account>
+    <!-- END - This is to add a new tab to customer dashboard-->
+    <!-- C2. This is to set the template to the new customer tab at dashboard -->
+    <survey_customer_index>
+        <update handle="customer_account"/>
+        <reference name="my.account.wrapper">
+            <block type="training_survey/customer_survey" name="customer.account.survey"
+                   template="survey/customer/survey.phtml"/>
+        </reference>
+    </survey_customer_index>
+    <!--  END - This is to set the template to the new customer tab at dashboard -->
+</layout>

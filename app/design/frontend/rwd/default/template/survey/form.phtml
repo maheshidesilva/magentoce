@@ -1,0 +1,13 @@
+<?php
+    $data = $this->getSurveyData();
+//var_dump($data);
+
+?>
+<h3>Customer Survey</h3>
+<form method="post" action="<?php echo Mage::getUrl('survey/index/save') ?>">
+    <span>#1: </span><span><?php echo $data['question'];?></span>
+    <input type="<?php echo $data['type'] ?>" name="question_answers" id="question_answers"/>
+    <input type="hidden" name="question_title" value="<?php echo $data['question'];?>"/>
+    <input type="hidden" name="question_type" value="<?php echo $data['type'];?>" />
+    <input type="submit" value="Submit" />
+</form>

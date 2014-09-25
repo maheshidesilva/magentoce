@@ -1,0 +1,25 @@
+<config>
+    <modules>
+        <Training_FirstModule>
+            <version>1.6.0.0</version>
+        </Training_FirstModule>
+    </modules>
+    <frontend>
+        <routers>
+            <firstmod>
+                <use>standard</use>
+                <args>
+                    <module>Training_FirstModule</module>
+                    <frontName>firstmod</frontName>
+                </args>
+            </firstmod>
+        </routers>
+        <layout>
+            <updates>
+                <firstmod>
+                    <file>firstmodule.xml</file>
+                </firstmod>
+            </updates>
+        </layout>
+    </frontend>
+</config>

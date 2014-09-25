@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <default>
+        <reference name="head">
+            <remove name="global_notices" />
+            <reference name="header">
+                <remove name="store_language" />
+            </reference>
+        </reference>
+    </default>
+    <firstmod_index_index>
+        <block type="page/html" name="root" output="toHtml" template="firstmodule/page.phtml" />
+    </firstmod_index_index>
+    <cms_index_index>
+        <reference name="head">
+            <reference name="header">
+                <!--<remove name="top.search" />-->
+            </reference>
+        </reference>
+    </cms_index_index>
+</layout>
