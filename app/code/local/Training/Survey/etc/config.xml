@@ -63,8 +63,10 @@
 	        </survey_setup>
     </resources>
     </global>
-    <!-- Admin Step #1: this section makes the url of admin section to begin with admin/controller/action -->
-    <!-- Admin Step #2: Go to adminhtml.xml -->
+    <!-- #1-Admin-Grid: 1. this section makes the url of admin section to begin with admin/controller/action -->
+    <!-- -->
+    <!-- #1-Admin-Grid: 2. Go to adminhtml.xml -->
+
     <admin>
         <routers>
             <adminhtml>
