@@ -23,38 +23,40 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Dashboard.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Adminhtml/Block/Dashboard.php">
+      <file leaf-file-name="config.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/local/Training/Survey/etc/config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="5" selection-start="1208" selection-end="1334" vertical-scroll-proportion="-5.1" vertical-offset="0" max-vertical-offset="1065">
+            <state line="65" column="23" selection-start="2190" selection-end="2204" vertical-scroll-proportion="0.0" vertical-offset="80" max-vertical-offset="1290">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.phtml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/template/dashboard/index.phtml">
+      <file leaf-file-name="system.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/local/Training/Survey/etc/system.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="113" column="22" selection-start="4819" selection-end="4819" vertical-scroll-proportion="-56.25" vertical-offset="0" max-vertical-offset="1740">
+            <state line="34" column="51" selection-start="1571" selection-end="1597" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Grid.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Adminhtml/Block/Dashboard/Orders/Grid.php">
+      <file leaf-file-name="adminhtml.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/local/Training/Survey/etc/adminhtml.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="4" selection-start="1349" selection-end="4093" vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="1605">
+            <state line="2" column="22" selection-start="57" selection-end="70" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Last.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/code/local/Training/Survey/Block/Adminhtml/Dashboard/Survey/Last.php">
+      <file leaf-file-name="Survey.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/local/Training/Survey/Block/Adminhtml/Survey.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="568" selection-end="568" vertical-scroll-proportion="13.208333" vertical-offset="587" max-vertical-offset="1365">
-              <folding />
+            <state line="40" column="1" selection-start="1343" selection-end="1343" vertical-scroll-proportion="-25.0" vertical-offset="0" max-vertical-offset="690">
+              <folding>
+                <element signature="e#6#482#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -62,7 +64,7 @@
       <file leaf-file-name="Grid.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/code/local/Training/Survey/Block/Adminhtml/Survey/Grid.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="8" selection-start="881" selection-end="881" vertical-scroll-proportion="-21.875" vertical-offset="0" max-vertical-offset="2085">
+            <state line="117" column="45" selection-start="3431" selection-end="3431" vertical-scroll-proportion="-38.166668" vertical-offset="839" max-vertical-offset="2025">
               <folding>
                 <element signature="e#6#461#0" expanded="true" />
               </folding>
@@ -70,34 +72,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Dashboard.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/code/local/Training/Survey/Block/Adminhtml/Dashboard.php">
+      <file leaf-file-name="Edit.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/local/Training/Survey/Block/Adminhtml/Survey/Edit.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="35" selection-start="657" selection-end="657" vertical-scroll-proportion="-13.75" vertical-offset="0" max-vertical-offset="585">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.phtml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/template/survey/dashboard/index.phtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="115" column="103" selection-start="5444" selection-end="5444" vertical-scroll-proportion="-18.75" vertical-offset="1275" max-vertical-offset="2145">
+            <state line="25" column="78" selection-start="825" selection-end="825" vertical-scroll-proportion="-15.625" vertical-offset="0" max-vertical-offset="645">
               <folding>
-                <element signature="e#6#971#0" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#td#1;n#tr#0;n#table#0;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#td#1;n#tr#0;n#table#0;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#0;n#td#1;n#tr#0;n#table#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="e#6#461#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="43" selection-end="43" vertical-scroll-proportion="0.115830116" vertical-offset="0" max-vertical-offset="777">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -105,16 +86,38 @@
       <file leaf-file-name="Tabs.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/code/local/Training/Survey/Block/Adminhtml/Survey/Edit/Tabs.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="83" selection-start="1137" selection-end="1146" vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="465">
+            <state line="39" column="63" selection-start="1369" selection-end="1369" vertical-scroll-proportion="-20.541666" vertical-offset="92" max-vertical-offset="870">
+              <folding>
+                <element signature="e#6#461#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Form.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/local/Training/Survey/Block/Adminhtml/Survey/Edit/Form.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="52" selection-start="835" selection-end="835" vertical-scroll-proportion="-18.75" vertical-offset="0" max-vertical-offset="720">
+              <folding>
+                <element signature="e#6#461#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Form.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/code/local/Training/Survey/Block/Adminhtml/Survey/Edit/Tab/Form.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="14" selection-start="307" selection-end="307" vertical-scroll-proportion="-0.23670213" vertical-offset="343" max-vertical-offset="1095">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Survey.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/code/local/Training/Survey/Block/Customer/Survey.php">
+      <file leaf-file-name="SurveyController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/local/Training/Survey/controllers/Adminhtml/SurveyController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="56" selection-start="1100" selection-end="1132" vertical-scroll-proportion="-21.541666" vertical-offset="23" max-vertical-offset="825">
+            <state line="40" column="21" selection-start="1053" selection-end="1067" vertical-scroll-proportion="-14.375" vertical-offset="255" max-vertical-offset="2295">
               <folding />
             </state>
           </provider>
@@ -149,7 +152,6 @@
         <option value="$PROJECT_DIR$/app/code/local/Training/FirstModule/etc/config.xml" />
         <option value="$PROJECT_DIR$/../test/index.php" />
         <option value="$PROJECT_DIR$/app/code/local/Training/FirstModule/controllers/IndexController.php" />
-        <option value="$PROJECT_DIR$/app/code/local/Training/Survey/Helper/Data.php" />
         <option value="$PROJECT_DIR$/app/code/local/Training/Survey/Block/Survey/Form.php" />
         <option value="$PROJECT_DIR$/app/design/frontend/rwd/default/template/survey/form.phtml" />
         <option value="$PROJECT_DIR$/app/code/local/Training/Survey/Model/Survey.php" />
@@ -159,34 +161,36 @@
         <option value="$PROJECT_DIR$/app/code/local/Training/Survey/controllers/IndexController.php" />
         <option value="$PROJECT_DIR$/app/code/local/Training/Survey/Model/Resource/Survey/Collection.php" />
         <option value="$PROJECT_DIR$/app/code/local/Training/Survey/Model/Resource/Survey.php" />
-        <option value="$PROJECT_DIR$/app/code/local/Training/Survey/Block/Adminhtml/Survey/Edit/Form.php" />
-        <option value="$PROJECT_DIR$/app/code/local/Training/Survey/Block/Adminhtml/Survey/Edit/Tabs.php" />
-        <option value="$PROJECT_DIR$/app/code/local/Training/Survey/Block/Adminhtml/Survey/Edit.php" />
-        <option value="$PROJECT_DIR$/app/code/local/Training/Survey/Block/Adminhtml/Survey.php" />
-        <option value="$PROJECT_DIR$/app/code/local/Training/Survey/controllers/Adminhtml/SurveyController.php" />
         <option value="$PROJECT_DIR$/app/code/local/Training/Survey/sql/survey_setup/mysql4-upgrade-0.1.0-0.2.0.php" />
-        <option value="$PROJECT_DIR$/app/code/local/Training/Survey/etc/adminhtml.xml" />
-        <option value="$PROJECT_DIR$/app/code/local/Training/Survey/etc/system.xml" />
-        <option value="$PROJECT_DIR$/app/code/local/Training/Survey/Block/Adminhtml/Survey/Edit/Tab/Form.php" />
         <option value="$PROJECT_DIR$/app/design/frontend/rwd/default/template/survey/customer/survey.phtml" />
-        <option value="$PROJECT_DIR$/app/code/local/Training/Survey/Block/Customer/Survey.php" />
         <option value="$PROJECT_DIR$/app/etc/modules/Training_Survey.xml" />
         <option value="$PROJECT_DIR$/app/code/local/Training/Survey/Block/Adminhtml/Dashboard/Grids.php" />
-        <option value="$PROJECT_DIR$/app/code/local/Training/Survey/etc/config.xml" />
         <option value="$PROJECT_DIR$/app/code/core/Mage/Adminhtml/Block/Dashboard.php" />
-        <option value="$PROJECT_DIR$/app/code/local/Training/Survey/Block/Adminhtml/Survey/Grid.php" />
-        <option value="$PROJECT_DIR$/app/code/local/Training/Survey/Block/Adminhtml/Dashboard/Survey/Last.php" />
         <option value="$PROJECT_DIR$/app/design/adminhtml/default/default/template/dashboard/index.phtml" />
-        <option value="$PROJECT_DIR$/app/code/local/Training/Survey/Block/Adminhtml/Dashboard.php" />
-        <option value="$PROJECT_DIR$/app/design/adminhtml/default/default/template/survey/dashboard/index.phtml" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/app/code/local/Training/Survey/etc/system.xml" />
+        <option value="$PROJECT_DIR$/app/code/local/Training/Survey/Helper/Data.php" />
+        <option value="$PROJECT_DIR$/app/code/local/Training/Survey/Block/Customer/Survey.php" />
+        <option value="$PROJECT_DIR$/app/code/local/Training/Survey/Block/Adminhtml/Dashboard.php" />
+        <option value="$PROJECT_DIR$/app/code/local/Training/Survey/Block/Adminhtml/Dashboard/Survey/Last.php" />
+        <option value="$PROJECT_DIR$/app/design/adminhtml/default/default/template/survey/dashboard/index.phtml" />
+        <option value="$PROJECT_DIR$/app/code/local/Training/Survey/README.md" />
+        <option value="$PROJECT_DIR$/app/code/local/Training/Survey/etc/config.xml" />
+        <option value="$PROJECT_DIR$/app/code/local/Training/Survey/etc/adminhtml.xml" />
+        <option value="$PROJECT_DIR$/app/code/local/Training/Survey/Block/Adminhtml/Survey.php" />
+        <option value="$PROJECT_DIR$/app/code/local/Training/Survey/Block/Adminhtml/Survey/Grid.php" />
+        <option value="$PROJECT_DIR$/app/code/local/Training/Survey/controllers/Adminhtml/SurveyController.php" />
+        <option value="$PROJECT_DIR$/app/code/local/Training/Survey/Block/Adminhtml/Survey/Edit.php" />
+        <option value="$PROJECT_DIR$/app/code/local/Training/Survey/Block/Adminhtml/Survey/Edit/Form.php" />
+        <option value="$PROJECT_DIR$/app/code/local/Training/Survey/Block/Adminhtml/Survey/Edit/Tab/Form.php" />
+        <option value="$PROJECT_DIR$/app/code/local/Training/Survey/Block/Adminhtml/Survey/Edit/Tabs.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-2552" />
-    <option name="y" value="-75" />
+    <option name="x" value="-2556" />
+    <option name="y" value="-72" />
     <option name="width" value="2513" />
     <option name="height" value="1330" />
   </component>
@@ -232,6 +236,514 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="magentoce" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magentoce" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magentoce" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magentoce" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magentoce" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magentoce" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magentoce" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adminhtml" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magentoce" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magentoce" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adminhtml" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magentoce" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magentoce" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="local" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Training" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Survey" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magentoce" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magentoce" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="local" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Training" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Survey" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="etc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magentoce" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magentoce" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="local" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Training" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Survey" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magentoce" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magentoce" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="local" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Training" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Survey" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Adminhtml" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magentoce" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magentoce" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="local" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Training" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Survey" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Block" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magentoce" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magentoce" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="local" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Training" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Survey" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Block" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Adminhtml" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magentoce" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magentoce" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="local" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Training" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Survey" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Block" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Adminhtml" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Survey" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magentoce" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magentoce" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="local" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Training" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Survey" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Block" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Adminhtml" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Survey" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Edit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magentoce" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magentoce" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="local" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Training" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Survey" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Block" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Adminhtml" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Survey" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Edit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Tab" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magentoce" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magentoce" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="local" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Training" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magentoce" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magentoce" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="local" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magentoce" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magentoce" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -297,7 +809,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2552" y="-75" width="2513" height="1330" extended-state="0" />
+    <frame x="-2556" y="-72" width="2513" height="1330" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -306,7 +818,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32956383" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2557669" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2557669" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -337,18 +849,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/rwd/default/layout/review.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="104" column="125" selection-start="4363" selection-end="4472" vertical-scroll-proportion="0.0" vertical-offset="1068" max-vertical-offset="2280">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Poll/etc/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="18" selection-start="1351" selection-end="1355" vertical-scroll-proportion="0.07178218" vertical-offset="528" max-vertical-offset="1740" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/code/local/Training/Customer/etc/config.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="17" selection-start="154" selection-end="162" vertical-scroll-proportion="0.08663366" vertical-offset="0" max-vertical-offset="1212" />
@@ -404,13 +904,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/Training/Survey/Helper/Data.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="32" selection-start="791" selection-end="803" vertical-scroll-proportion="-18.125" vertical-offset="0" max-vertical-offset="630">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/design/frontend/rwd/default/layout/survey.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="10" selection-start="1105" selection-end="1105" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
@@ -453,22 +946,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/Training/Survey/Block/Adminhtml/Survey.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="30" selection-start="719" selection-end="719" vertical-scroll-proportion="-18.125" vertical-offset="0" max-vertical-offset="690">
-          <folding>
-            <element signature="e#6#461#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/Training/Survey/controllers/Adminhtml/SurveyController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="129" column="29" selection-start="4961" selection-end="4963" vertical-scroll-proportion="-9.94" vertical-offset="1438" max-vertical-offset="2190">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/code/local/Training/Survey/sql/survey_setup/mysql4-upgrade-0.1.0-0.2.0.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="30" selection-start="764" selection-end="764" vertical-scroll-proportion="-17.5" vertical-offset="0" max-vertical-offset="615">
@@ -481,27 +958,6 @@
     <entry file="file://$PROJECT_DIR$/app/code/local/Alanstormdotcom/Layoutviewer/etc/config.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="33" selection-start="45" selection-end="73" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/Training/Survey/Block/Adminhtml/Survey/Edit/Form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="1" selection-start="1020" selection-end="1020" vertical-scroll-proportion="-20.0" vertical-offset="0" max-vertical-offset="570">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/Training/Survey/etc/adminhtml.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="29" selection-start="1272" selection-end="1272" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/Training/Survey/etc/system.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="41" selection-start="1081" selection-end="1097" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675">
           <folding />
         </state>
       </provider>
@@ -548,13 +1004,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/Training/Survey/Block/Adminhtml/Survey/Edit/Tab/Form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="0" selection-start="1337" selection-end="1337" vertical-scroll-proportion="-18.416666" vertical-offset="128" max-vertical-offset="1035">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Adminhtml/Block/Dashboard/Grids.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="75" column="38" selection-start="2568" selection-end="2568" vertical-scroll-proportion="-28.125" vertical-offset="105" max-vertical-offset="1080">
@@ -590,13 +1039,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/Training/Survey/etc/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="29" selection-start="1035" selection-end="1035" vertical-scroll-proportion="0.0" vertical-offset="248" max-vertical-offset="1245">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Adminhtml/Block/Customer/Edit/Tab/View/Accordion.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="41" column="24" selection-start="1418" selection-end="1418" vertical-scroll-proportion="-11.125" vertical-offset="3" max-vertical-offset="1005">
@@ -604,46 +1046,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/Training/Survey/Block/Adminhtml/Survey/Edit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="8" selection-start="787" selection-end="787" vertical-scroll-proportion="0.21208227" vertical-offset="0" max-vertical-offset="778">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/code/local/Training/Survey/controllers/CustomerController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="8" selection-start="563" selection-end="563" vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="585">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/Training/Survey/Block/Customer/Survey.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="56" selection-start="1100" selection-end="1132" vertical-scroll-proportion="-21.541666" vertical-offset="23" max-vertical-offset="825">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/Training/Survey/Block/Adminhtml/Survey/Grid.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="8" selection-start="881" selection-end="881" vertical-scroll-proportion="-21.875" vertical-offset="0" max-vertical-offset="2085">
-          <folding>
-            <element signature="e#6#461#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/Training/Survey/Block/Adminhtml/Survey/Edit/Tabs.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="83" selection-start="1137" selection-end="1146" vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="465">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/Training/Survey/Block/Adminhtml/Dashboard/Survey/Last.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="568" selection-end="568" vertical-scroll-proportion="13.208333" vertical-offset="587" max-vertical-offset="1365">
           <folding />
         </state>
       </provider>
@@ -669,28 +1074,144 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/Training/Survey/Block/Adminhtml/Dashboard.php">
+    <entry file="file://$PROJECT_DIR$/app/code/local/Training/Survey/Helper/Data.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="35" selection-start="657" selection-end="657" vertical-scroll-proportion="-13.75" vertical-offset="0" max-vertical-offset="585">
+        <state line="44" column="44" selection-start="1280" selection-end="1304" vertical-scroll-proportion="-25.541666" vertical-offset="47" max-vertical-offset="825">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/template/survey/dashboard/index.phtml">
+    <entry file="file://$PROJECT_DIR$/app/code/local/Training/Survey/Block/Customer/Survey.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="115" column="103" selection-start="5444" selection-end="5444" vertical-scroll-proportion="-18.75" vertical-offset="1275" max-vertical-offset="2145">
-          <folding>
-            <element signature="e#6#971#0" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#td#1;n#tr#0;n#table#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#td#1;n#tr#0;n#table#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#td#1;n#tr#0;n#table#0;n#div#1;n#!!top" expanded="true" />
-          </folding>
+        <state line="15" column="41" selection-start="415" selection-end="457" vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="915">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="39" selection-end="39" vertical-scroll-proportion="0.050632913" vertical-offset="0" max-vertical-offset="1185">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="43" selection-end="43" vertical-scroll-proportion="0.115830116" vertical-offset="0" max-vertical-offset="777">
+        <state line="8" column="0" selection-start="58" selection-end="58" vertical-scroll-proportion="-4.8" vertical-offset="0" max-vertical-offset="210">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Training/Survey/Block/Adminhtml/Dashboard.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="88" selection-start="1576" selection-end="1576" vertical-scroll-proportion="-28.125" vertical-offset="0" max-vertical-offset="915">
+          <folding>
+            <element signature="e#6#482#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Training/Survey/Block/Adminhtml/Dashboard/Survey/Last.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="73" column="72" selection-start="2199" selection-end="2199" vertical-scroll-proportion="-24.416666" vertical-offset="509" max-vertical-offset="1695">
+          <folding>
+            <element signature="e#6#482#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/template/survey/dashboard/index.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="83" selection-start="1483" selection-end="1483" vertical-scroll-proportion="-1.875" vertical-offset="180" max-vertical-offset="1890">
+          <folding>
+            <element signature="e#981#1137#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Training/Survey/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="82" selection-end="95" vertical-scroll-proportion="-1.2" vertical-offset="0" max-vertical-offset="180">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Training/Survey/etc/system.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="51" selection-start="1571" selection-end="1597" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Training/Survey/etc/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="23" selection-start="2190" selection-end="2204" vertical-scroll-proportion="0.0" vertical-offset="80" max-vertical-offset="1290">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Training/Survey/etc/adminhtml.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="22" selection-start="57" selection-end="70" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Training/Survey/Block/Adminhtml/Survey.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="1" selection-start="1343" selection-end="1343" vertical-scroll-proportion="-25.0" vertical-offset="0" max-vertical-offset="690">
+          <folding>
+            <element signature="e#6#482#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Training/Survey/Block/Adminhtml/Survey/Grid.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="117" column="45" selection-start="3431" selection-end="3431" vertical-scroll-proportion="-38.166668" vertical-offset="839" max-vertical-offset="2025">
+          <folding>
+            <element signature="e#6#461#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Training/Survey/controllers/Adminhtml/SurveyController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="21" selection-start="1053" selection-end="1067" vertical-scroll-proportion="-14.375" vertical-offset="255" max-vertical-offset="2295">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Training/Survey/Block/Adminhtml/Survey/Edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="78" selection-start="825" selection-end="825" vertical-scroll-proportion="-15.625" vertical-offset="0" max-vertical-offset="645">
+          <folding>
+            <element signature="e#6#461#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Training/Survey/Block/Adminhtml/Survey/Edit/Form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="52" selection-start="835" selection-end="835" vertical-scroll-proportion="-18.75" vertical-offset="0" max-vertical-offset="720">
+          <folding>
+            <element signature="e#6#461#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Training/Survey/Block/Adminhtml/Survey/Edit/Tabs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="63" selection-start="1369" selection-end="1369" vertical-scroll-proportion="-20.541666" vertical-offset="92" max-vertical-offset="870">
+          <folding>
+            <element signature="e#6#461#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Training/Survey/Block/Adminhtml/Survey/Edit/Tab/Form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="14" selection-start="307" selection-end="307" vertical-scroll-proportion="-0.23670213" vertical-offset="343" max-vertical-offset="1095">
           <folding />
         </state>
       </provider>

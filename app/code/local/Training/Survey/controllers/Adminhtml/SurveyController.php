@@ -21,15 +21,15 @@ class Training_Survey_Adminhtml_SurveyController extends Mage_Adminhtml_Controll
     protected function _initAction()
     {
         $this->loadLayout()
-            ->_setActiveMenu('survey/items')
-            ->_addBreadcrumb(Mage::helper('adminhtml')->__('Items Manager'), Mage::helper('adminhtml')->__('Item Manager'));
+             ->_setActiveMenu('training_survey/items');
 
         return $this;
     }
-    /*
-     * Admin Step #3:-->
-     *
-     * */
+
+    /**
+     * #1-Admin-Grid: 3. This is the action when menu is clicked
+     * the particular block is called here
+     */
     public function indexAction() {
         $this->_initAction();
         $this->_addContent($this->getLayout()->createBlock('training_survey/adminhtml_survey'));
@@ -37,21 +37,28 @@ class Training_Survey_Adminhtml_SurveyController extends Mage_Adminhtml_Controll
 
     }
 
+    /**
+     * #1-Admin-Grid: 10. edit Controller Action
+     */
     public function editAction() {
-        //var_dump($this->getRequest()->getParam('id'));
         $survey = Mage::getModel('training_survey/survey');
 
         if ($surveyId = $this->getRequest()->getParam('id')) {
             $survey->load($surveyId);
 
             if ($survey->getId()) {
+                // survey data loaded from the url param id
                 Mage::register('survey_admin_data',$survey);
-                // Add the form container as the only item on this page.
+                // Set the active menu to admin
+                // Add edit block as the content
+                // Add the tabs as the left content
                 $this->loadLayout()
+                    ->_setActiveMenu('training_survey/items')
                     ->_addContent($this->getLayout()->createBlock('training_survey/adminhtml_survey_edit'))
                     ->_addLeft($this->getLayout()->createBlock('training_survey/adminhtml_survey_edit_tabs'))
                     ->renderLayout();
             } else {
+                // if the survey does not exist
                 Mage::getSingleton('adminhtml/session')->addError(Mage::helper('training_survey')->__('Survey does not exist!'));
                 $this->_redirect('*/*/');
             }

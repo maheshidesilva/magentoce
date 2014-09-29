@@ -1,19 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config>
-    <!-- Admin Step #2: Menu, without this part admin url router does not work at all. So here we have to define the menu and its action-->
-    <!-- Admin Step #3: Go to Adminhtml/SurveyController.php-->
+    <!-- #1-Admin-Grid: 2. Menu, without this part admin url router does not work at all. So here we have to define the menu and its action-->
+    <!-- #1-Admin-Grid: 3. Go to Adminhtml/SurveyController.php-->
     <menu>
         <training_survey>
             <title>Manage Surveys</title>
             <sort_order>100</sort_order>
             <action>adminhtml/survey/index</action>
-            <!--<children>
-                <test>
-                    <title>Test</title>
-                    <action>adminhtml/survey/index</action>
-                    <sort_order>0</sort_order>
-                </test>
-            </children>-->
         </training_survey>
     </menu>
     <acl>

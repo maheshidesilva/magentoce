@@ -15,6 +15,11 @@
  * @copyright 2014 IE Agency http://ie.com.au/
  * @license   IE Agency http://ie.com.au/
  */
+
+/**
+ * Class Training_Survey_Block_Adminhtml_Survey_Edit_Tab_Form
+ * #1-Admin-Grid: 17. Content for the first tab is coming from here
+ */
 class Training_Survey_Block_Adminhtml_Survey_Edit_Tab_Form extends Mage_Adminhtml_Block_Widget_Form
 {
     protected function _prepareForm()
@@ -24,34 +29,33 @@ class Training_Survey_Block_Adminhtml_Survey_Edit_Tab_Form extends Mage_Adminhtm
         $fieldset = $form->addFieldset('survey_form', array('legend'=>Mage::helper('training_survey')->__('Survey information')));
 
         $fieldset->addField('question_title', 'text', array(
-            'label' => Mage::helper('training_survey')->__('Question Title'),
-            'class' => 'required-entry',
+            'label'    => Mage::helper('training_survey')->__('Question Title'),
+            'class'    => 'required-entry',
             'required' => true,
-            'name' => 'question_title',
+            'name'     => 'question_title',
         ));
 
         $fieldset->addField('question_answers', 'text', array(
-            'label' => Mage::helper('training_survey')->__('Answers'),
-            'class' => 'required-entry',
+            'label'    => Mage::helper('training_survey')->__('Answers'),
+            'class'    => 'required-entry',
             'required' => true,
-            'name' => 'question_answers',
+            'name'     => 'question_answers',
         ));
 
         $fieldset->addField('customer_id', 'label', array(
-            'label' => Mage::helper('training_survey')->__('Customer ID'),
-            'class' => 'required-entry',
+            'label'    => Mage::helper('training_survey')->__('Customer ID'),
+            'class'    => 'required-entry',
             'required' => true,
-            'name' => 'customer_id',
+            'name'     => 'customer_id',
         ));
 
         $fieldset->addField('comments', 'editor', array(
-            'label' => Mage::helper('training_survey')->__('Admin Comments'),
+            'label'    => Mage::helper('training_survey')->__('Admin Comments'),
             'required' => false,
-            'name' => 'comments',
+            'name'     => 'comments',
         ));
 
-        if ( Mage::getSingleton('adminhtml/session')->getSurveyAdminData() )
-        {
+        if ( Mage::getSingleton('adminhtml/session')->getSurveyAdminData() ) {
             $form->setValues(Mage::getSingleton('adminhtml/session')->getSurveyAdminData());
             Mage::getSingleton('adminhtml/session')->getSurveyAdminData(null);
         } elseif ( Mage::registry('survey_admin_data') ) {

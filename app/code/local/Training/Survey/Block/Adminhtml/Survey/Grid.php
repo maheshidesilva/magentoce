@@ -15,22 +15,18 @@
  * @copyright 2014 IE Agency http://ie.com.au/
  * @license   IE Agency http://ie.com.au/
  */
-/*
-     * Admin Step #6:
-     *
-     * */
+/**
+ * Class Training_Survey_Block_Adminhtml_Survey_Grid
+ * #1-Admin-Grid: 6
+ */
 class Training_Survey_Block_Adminhtml_Survey_Grid extends Mage_Adminhtml_Block_Widget_Grid {
 
-    /*
-     * Admin Step #7:
-     *
-     * */
+    /**
+     * @return Mage_Adminhtml_Block_Widget_Grid
+     * #1-Admin-Grid: 7. Defines which collection to be used for the grid
+     */
     protected function _prepareCollection()
     {
-        /**
-         * Tell Magento which collection to use to display in the grid.
-         */
-
         $collection = Mage::getModel('training_survey/survey')->getCollection();
 
         $this->setCollection($collection);
@@ -38,61 +34,59 @@ class Training_Survey_Block_Adminhtml_Survey_Grid extends Mage_Adminhtml_Block_W
         return parent::_prepareCollection();
     }
 
-    /*
-     * Admin Step #8:
-     *
-     * */
+    /**
+     * @return $this
+     * #1-Admin-Grid: 8. Columns to display in the grid
+     */
     protected function _prepareColumns()
     {
-        /**
-         * Here, we'll define which columns to display in the grid.
-         */
+
         $this->addColumn('survey_id', array(
             'header' => $this->_getHelper()->__('ID'),
-            'type' => 'number',
-            'index' => 'survey_id',
+            'type'   => 'number',
+            'index'  => 'survey_id',
         ));
 
         $this->addColumn('question_title', array(
             'header' => $this->_getHelper()->__('Question Title'),
-            'type' => 'text',
-            'index' => 'question_title',
+            'type'   => 'text',
+            'index'  => 'question_title',
         ));
 
         $this->addColumn('question_answers', array(
             'header' => $this->_getHelper()->__('Answers'),
-            'type' => 'text',
-            'index' => 'question_answers',
+            'type'   => 'text',
+            'index'  => 'question_answers',
         ));
 
         $this->addColumn('customer_id', array(
             'header' => $this->_getHelper()->__('Customer'),
-            'type' => 'number',
-            'index' => 'customer_id',
+            'type'   => 'number',
+            'index'  => 'customer_id',
         ));
 
         $this->addColumn('question_type', array(
             'header' => $this->_getHelper()->__('Question Type'),
-            'type' => 'text',
-            'index' => 'question_type',
+            'type'   => 'text',
+            'index'  => 'question_type',
         ));
 
         $this->addColumn('created_at', array(
             'header' => $this->_getHelper()->__('Created'),
-            'type' => 'datetime',
-            'index' => 'created_at',
+            'type'   => 'datetime',
+            'index'  => 'created_at',
         ));
 
         $this->addColumn('updated_at', array(
             'header' => $this->_getHelper()->__('Updated At'),
-            'type' => 'datetime',
-            'index' => 'updated_at',
+            'type'   => 'datetime',
+            'index'  => 'updated_at',
         ));
 
         $this->addColumn('comments', array(
             'header' => $this->_getHelper()->__('Admin Comments'),
-            'type' => 'text',
-            'index' => 'comments',
+            'type'   => 'text',
+            'index'  => 'comments',
         ));
 
         return parent::_prepareColumns();
@@ -117,10 +111,12 @@ class Training_Survey_Block_Adminhtml_Survey_Grid extends Mage_Adminhtml_Block_W
         return $this;
     }
 
-    /*
-     * Admin Step #9:
-     *
-     * */
+
+    /**
+     * @param $row
+     * @return string
+     * #1-Admin-Grid: 9. Row URL for the grid
+     */
     public function getRowUrl($row)
     {
         return $this->getUrl(

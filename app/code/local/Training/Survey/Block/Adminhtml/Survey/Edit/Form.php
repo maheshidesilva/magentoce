@@ -15,10 +15,20 @@
  * @copyright 2014 IE Agency http://ie.com.au/
  * @license   IE Agency http://ie.com.au/
  */
+
+/**
+ * Class Training_Survey_Block_Adminhtml_Survey_Edit_Form
+ * #1-Admin-Grid: 14.
+ */
 class Training_Survey_Block_Adminhtml_Survey_Edit_Form extends Mage_Adminhtml_Block_Widget_Form {
 
+    /**
+     * @return Mage_Adminhtml_Block_Widget_Form
+     * #1-Admin-Grid: 15
+     */
     protected function _prepareForm()
     {
+        // id should be same as the setDestElementId in Tabs.php
         $form = new Varien_Data_Form(array(
                 'id' => 'edit_form',
                 'action' => $this->getUrl('*/*/save', array('id' => $this->getRequest()->getParam('id'))),
