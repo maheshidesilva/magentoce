@@ -31,7 +31,7 @@ class Training_Survey_Block_Adminhtml_Survey_Edit_Form extends Mage_Adminhtml_Bl
         // id should be same as the setDestElementId in Tabs.php
         $form = new Varien_Data_Form(array(
                 'id' => 'edit_form',
-                'action' => $this->getUrl('*/*/save', array('id' => $this->getRequest()->getParam('id'))),
+                'action' => $this->getUrl('*/*/save', array('id' => (int) $this->getRequest()->getParam('id'))),
                 'method' => 'post',
                 'enctype' => 'multipart/form-data'
             )

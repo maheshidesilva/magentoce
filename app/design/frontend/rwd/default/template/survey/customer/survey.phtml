@@ -3,10 +3,10 @@
         <h1><?php echo $this->__('My Surveys') ?></h1>
     </div>
     <?php $dataCol = $this->getSurveyOfCustomer(); ?>
-    <?php if( count($dataCol)!=0 ) { ?>
+    <?php if ( count($dataCol)!=0 ) : ?>
         <table>
             <tr>
-                <th>Question</th>
+                <th><?php echo $this->__('Question'); ?></th>
                 <th>Answer</th>
                 <th>Answered When</th>
             </tr>
@@ -18,8 +18,8 @@
             </tr>
         <?php   } ?>
         </table>
-    <?php } else { ?>
+    <?php  else : ?>
             <p>You have not yet answered any survey! </p>
-    <?php } ?>
+    <?php endif; ?>
 
 </div>

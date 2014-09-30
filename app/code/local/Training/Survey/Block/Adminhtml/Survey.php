@@ -29,8 +29,8 @@ class Training_Survey_Block_Adminhtml_Survey extends Mage_Adminhtml_Block_Widget
     {
         parent::__construct();
         $this->_removeButton('add');
-        /* _controller and _bockGroup are used by this container to find and load the grid block */
-        /* path to grid block class which is Adminhtml/Survey/ */
+        /* _controller and _bockGroup are used by this container to find and load the grid block
+         path to grid block class which is Adminhtml/Survey/ */
         $this->_controller = 'adminhtml_survey';
         /* module name which is defined in the config under blocks section */
         $this->_blockGroup = 'training_survey';
