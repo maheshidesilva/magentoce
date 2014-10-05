@@ -1,8 +1,20 @@
 <?xml version="1.0"?>
-<layout version="0.1.0">
+<layout>
     <survey_adminhtml_survey_index>
         <reference name="content">
             <block type="training_survey/adminhtml_survey" name="training_survey" />
         </reference>
     </survey_adminhtml_survey_index>
+
+    <adminhtml_dashboard_index>
+        <reference name="content">
+            <reference name="dashboard">
+                <block type="training_survey/adminhtml_dashboard_survey_last" name="lastSurveys" as="lastSurveys" after="store_switcher">
+                    <action method="setTemplate">
+                        <template>survey/dashboard/last.phtml</template>
+                    </action>
+                </block>
+            </reference>
+        </reference>
+    </adminhtml_dashboard_index>
 </layout>
