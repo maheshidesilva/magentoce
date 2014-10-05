@@ -78,4 +78,13 @@
             </adminhtml>
         </routers>
     </admin>
+    <adminhtml>
+        <layout>
+            <updates>
+                <training_survey>
+                    <file>survey.xml</file>
+                </training_survey>
+            </updates>
+        </layout>
+    </adminhtml>
 </config>
