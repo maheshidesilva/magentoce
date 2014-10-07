@@ -33,6 +33,10 @@ class Training_Survey_Block_Survey_Form extends Mage_Core_Block_Template
         return $helper->isUserLoggedIn();
     }
 
+    public function getSaveUrl() {
+        return Mage::getUrl('survey/index/save');
+    }
+
     protected function _getHelper()
     {
         return Mage::helper('training_survey');
