@@ -1,9 +1,8 @@
 <?php
-    $data = $this->getSurveyData();
-//var_dump($data);
+    $data   = $this->getSurveyData();
 
 ?>
-<h3>Customer Survey</h3>
+<h3><?php echo $this->__('Customer Survey') ?></h3>
 <form method="post" action="<?php echo $this->getSaveUrl() ?>">
     <span>#1: </span><span><?php echo $data['question'];?></span>
     <input type="<?php echo $data['type'] ?>" name="question_answers" id="question_answers"/>

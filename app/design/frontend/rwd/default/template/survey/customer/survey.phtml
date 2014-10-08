@@ -7,8 +7,8 @@
         <table>
             <tr>
                 <th><?php echo $this->__('Question'); ?></th>
-                <th>Answer</th>
-                <th>Answered When</th>
+                <th><?php echo $this->__('Answer'); ?></th>
+                <th><?php echo $this->__('Answered When'); ?></th>
             </tr>
         <?php   foreach($dataCol as $data) : ?>
             <tr>
@@ -19,6 +19,6 @@
         <?php   endforeach; ?>
         </table>
     <?php  else : ?>
-            <p>You have not yet answered any survey! </p>
+            <p><?php echo $this->__('You have not yet answered any survey!'); ?></p>
     <?php endif; ?>
 </div>
