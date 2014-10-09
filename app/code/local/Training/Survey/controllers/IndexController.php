@@ -18,11 +18,7 @@
 class Training_Survey_IndexController extends Mage_Core_Controller_Front_Action {
 
     public function indexAction(){
-
-        $survey = Mage::getModel('training_survey/survey')->getSurveyData();
-
         $this->loadLayout();
-        $this->getLayout()->getBlock('survey.form')->setData('current_survey',$survey);
         $this->renderLayout();
     }
 
