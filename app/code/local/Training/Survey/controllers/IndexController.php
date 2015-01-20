@@ -54,9 +54,15 @@ class Training_Survey_IndexController extends Mage_Core_Controller_Front_Action 
             $session->addError($this->_getHelper()->__('Unable to submit the survey! Please enter a valid input!'));
         }
 
+
         //this part is to redirect to parent url
         $url = Mage::getSingleton('core/session')->getLastUrl();
-        $this->_redirectUrl($url);
+        if($url) {
+            $this->_redirectUrl($url);
+        } else {
+            $this->_redirectUrl(Mage::helper('core/url')->getHomeUrl());
+        }
+
 
     }
 

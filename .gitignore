@@ -6,3 +6,5 @@
 /var/
 .idea/
 .idea/*
+.idea/workspace.xml
+.htaccess
