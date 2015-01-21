@@ -4,9 +4,20 @@
     <!-- #1-Admin-Grid: 3. Go to Adminhtml/SurveyController.php-->
     <menu>
         <training_survey>
-            <title>Manage Surveys</title>
+            <title>Surveys</title>
             <sort_order>100</sort_order>
-            <action>adminhtml/survey/index</action>
+            <children>
+                <manage_surveys>
+                    <title>Manage Surveys</title>
+                    <sort_order>0</sort_order>
+                    <action>adminhtml/survey/index</action>
+                </manage_surveys>
+                <manage_survey_results>
+                    <title>Manage Survey Results</title>
+                    <sort_order>1</sort_order>
+                    <action>adminhtml/survey/index</action>
+                </manage_survey_results>
+            </children>
         </training_survey>
     </menu>
     <acl>
